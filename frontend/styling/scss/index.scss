@@ -49,12 +49,15 @@ button:hover {
         button {
             display: block;
             position: absolute;
-            bottom: 3em;
+            bottom: 1.3em;
             left: 50%;
             -ms-transform: translate(-50%);
             transform: translate(-50%);
             border: none;
-            background-color: red;
+            border-radius: 10em;
+            padding-top: 0.8em;
+            padding-bottom: 0.8em;
+            width: 70%;
         }
 
         #subject_reel_language_btn,
@@ -67,6 +70,19 @@ button:hover {
         #subject_reel_life_orientation_btn {
             margin-left: auto;
             margin-right: auto;
+            font-size: 0.7em;
+            box-sizing: border-box;
+        }
+
+        #subject_reel_mathematics_btn {
+            // TODO: add key frames and slow animate button on hover
+            border: 0.15em solid $gray_d;
+            background-color: rgba(0, 191, 255, 0.7);
+            transition: background-color 0.5s;
+        }
+
+        #subject_reel_mathematics_btn:hover {
+            background-color: rgba(0, 191, 255, 0.9);
         }
     }
 
@@ -96,6 +112,9 @@ button:hover {
 
     #subject_reel_mathematics {
         background-color: $blue;
+        background-image: url("../../images/blue_girl.png"); /* The image used */
+        background-position: center;
+        background-size: cover;
     }
 
     #subject_reel_technology {
