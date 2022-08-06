@@ -10,55 +10,48 @@ body {
   margin: 0;
   background-color: #262626;
   overflow: hidden;
-  font-family: "shipporiantique";
 }
 
-/* line 10, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 9, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel {
   padding: 0;
   max-width: 100%;
   display: flex;
-  margin-right: auto;
-  margin-left: auto;
   list-style-type: none;
   text-align: center;
+  font-family: "shipporiantique";
 }
 
-/* line 19, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
-.subject_reel :first-child {
-  transition: margin 1s;
-  transition-timing-function: ease-in-out;
-}
-
-/* line 26, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
-.subject_reel :first-child:hover {
-  margin-left: 1vw;
-  margin-right: -1vw;
-}
-
-/* line 31, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 17, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+.subject_reel :first-child,
 .subject_reel :last-child {
-  transition: margin 1s;
+  transition: margin 0.3s;
 }
 
-/* line 36, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 22, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+.subject_reel :first-child:hover {
+  margin-left: 1em;
+  margin-right: -1em;
+}
+
+/* line 28, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel :last-child:hover {
-  margin-right: 1vw;
-  margin-left: -1vw;
+  margin-right: 1em;
+  margin-left: -1em;
 }
 
-/* line 41, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 33, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel li {
   flex: 1;
-  height: 18vw;
+  height: 15em;
   transition: transform 0.3s;
-  padding-top: 1vw;
-  padding-bottom: 1vw;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
   box-sizing: border-box;
-  font-size: 1vw;
+  font-size: 1.3em;
 }
 
-/* line 53, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 45, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel li:hover {
   -webkit-box-shadow: 2px 3px 8px #000;
   -moz-box-shadow: 2px 3px 8px #000;
@@ -67,42 +60,42 @@ body {
   z-index: 2;
 }
 
-/* line 61, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 53, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel #subject_reel_language {
   background-color: #ff4d4d;
 }
 
-/* line 65, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 57, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel #subject_reel_economics {
   background-color: #ff8533;
 }
 
-/* line 69, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 61, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel #subject_reel_geography {
   background-color: #ffdb4d;
 }
 
-/* line 73, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 65, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel #subject_reel_science {
   background-color: #66ff66;
 }
 
-/* line 77, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 69, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel #subject_reel_mathematics {
   background-color: #66d9ff;
 }
 
-/* line 81, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 73, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel #subject_reel_technology {
   background-color: #bfbfbf;
 }
 
-/* line 85, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 77, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel #subject_reel_creative_arts {
   background-color: #af82f7;
 }
 
-/* line 89, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 81, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel #subject_reel_life_orientation {
   background-color: #ffaec9;
 }

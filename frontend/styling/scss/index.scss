@@ -4,50 +4,42 @@ body {
     margin: 0;
     background-color: $gray_d;
     overflow: hidden;
-    font-family: "shipporiantique";
 }
 
 .subject_reel {
     padding: 0;
     max-width: 100%;
     display: flex;
-    margin-right: auto;
-    margin-left: auto;
     list-style-type: none;
     text-align: center;
+    font-family: "shipporiantique";
 
-    :first-child {
-        transition: margin 1s;
-//         todo make scale slide back slowly too
-//  todo stop crazy jumping when mouse is left right/left in the margin on focus element
-        transition-timing-function: ease-in-out;
+    :first-child,
+    :last-child {
+        transition: margin 0.3s;
     }
 
     :first-child:hover {
-        margin-left: 1vw;
-        margin-right: -1vw;
-    }
-
-    :last-child {
-        transition: margin 1s;
-//         transition-timing-function: ease-in-out;
+        margin-left: 1em;
+        margin-right: -1em;
+        // TODO: Stop 'bouncing' when mouse rests far left/far right
     }
 
     :last-child:hover {
-        margin-right: 1vw;
-        margin-left: -1vw;
+        margin-right: 1em;
+        margin-left: -1em;
     }
 
     li {
         flex: 1;
-        height: 18vw;
+        height: 15em;
         transition: transform 0.3s;
         padding: {
-            top: 1vw;
-            bottom: 1vw;
+            top: 0.5em;
+            bottom: 0.5em;
         }
         box-sizing: border-box;
-        font-size: 1vw;
+        font-size: 1.3em;
     }
 
     li:hover {
