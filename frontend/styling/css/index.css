@@ -2,7 +2,7 @@
   font-family: 'shipporiantique';
   font-style: normal;
   font-weight: 400;
-  src: url("/frontend/styling/fonts/ShipporiAntiqueB1-Regular.ttf") format("truetype");
+  src: url("../fonts/ShipporiAntiqueB1-Regular.ttf") format("truetype");
 }
 
 /* line 3, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
