@@ -6,6 +6,10 @@ body {
     overflow: hidden;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 .subject_reel {
     padding: 0;
     max-width: 100%;
@@ -40,6 +44,30 @@ body {
         }
         box-sizing: border-box;
         font-size: 1.3em;
+        position: relative;
+
+        button {
+            display: block;
+            position: absolute;
+            bottom: 3em;
+            left: 50%;
+            -ms-transform: translate(-50%);
+            transform: translate(-50%);
+            border: none;
+            background-color: red;
+        }
+
+        #subject_reel_language_btn,
+        #subject_reel_economics_btn,
+        #subject_reel_geography_btn,
+        #subject_reel_science_btn,
+        #subject_reel_mathematics_btn,
+        #subject_reel_technology_btn,
+        #subject_reel_creative_arts_btn,
+        #subject_reel_life_orientation_btn {
+            margin-left: auto;
+            margin-right: auto;
+        }
     }
 
     li:hover {

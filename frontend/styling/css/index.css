@@ -13,6 +13,11 @@ body {
 }
 
 /* line 9, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+button:hover {
+  cursor: pointer;
+}
+
+/* line 13, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel {
   padding: 0;
   max-width: 100%;
@@ -22,25 +27,25 @@ body {
   font-family: "shipporiantique";
 }
 
-/* line 17, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 21, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel :first-child,
 .subject_reel :last-child {
   transition: margin 0.3s;
 }
 
-/* line 22, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 26, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel :first-child:hover {
   margin-left: 1em;
   margin-right: -1em;
 }
 
-/* line 28, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 32, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel :last-child:hover {
   margin-right: 1em;
   margin-left: -1em;
 }
 
-/* line 33, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 37, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel li {
   flex: 1;
   height: 15em;
@@ -49,9 +54,35 @@ body {
   padding-bottom: 0.5em;
   box-sizing: border-box;
   font-size: 1.3em;
+  position: relative;
 }
 
-/* line 45, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 49, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+.subject_reel li button {
+  display: block;
+  position: absolute;
+  bottom: 3em;
+  left: 50%;
+  -ms-transform: translate(-50%);
+  transform: translate(-50%);
+  border: none;
+  background-color: red;
+}
+
+/* line 60, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+.subject_reel li #subject_reel_language_btn,
+.subject_reel li #subject_reel_economics_btn,
+.subject_reel li #subject_reel_geography_btn,
+.subject_reel li #subject_reel_science_btn,
+.subject_reel li #subject_reel_mathematics_btn,
+.subject_reel li #subject_reel_technology_btn,
+.subject_reel li #subject_reel_creative_arts_btn,
+.subject_reel li #subject_reel_life_orientation_btn {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* line 73, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel li:hover {
   -webkit-box-shadow: 2px 3px 8px #000;
   -moz-box-shadow: 2px 3px 8px #000;
@@ -60,42 +91,42 @@ body {
   z-index: 2;
 }
 
-/* line 53, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 81, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel #subject_reel_language {
   background-color: #ff4d4d;
 }
 
-/* line 57, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 85, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel #subject_reel_economics {
   background-color: #ff8533;
 }
 
-/* line 61, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 89, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel #subject_reel_geography {
   background-color: #ffdb4d;
 }
 
-/* line 65, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 93, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel #subject_reel_science {
   background-color: #66ff66;
 }
 
-/* line 69, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 97, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel #subject_reel_mathematics {
   background-color: #66d9ff;
 }
 
-/* line 73, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 101, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel #subject_reel_technology {
   background-color: #bfbfbf;
 }
 
-/* line 77, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 105, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel #subject_reel_creative_arts {
   background-color: #af82f7;
 }
 
-/* line 81, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
+/* line 109, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */
 .subject_reel #subject_reel_life_orientation {
   background-color: #ffaec9;
 }
