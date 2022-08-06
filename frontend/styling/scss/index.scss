@@ -1,0 +1,92 @@
+@import "globals";
+
+body {
+    margin: 0;
+    background-color: $gray_d;
+    overflow: hidden;
+    font-family: "shipporiantique";
+}
+
+.subject_reel {
+    padding: 0;
+    max-width: 100%;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    list-style-type: none;
+    text-align: center;
+
+    :first-child {
+        transition: margin 1s;
+//         todo make scale slide back slowly too
+//  todo stop crazy jumping when mouse is left right/left in the margin on focus element
+        transition-timing-function: ease-in-out;
+    }
+
+    :first-child:hover {
+        margin-left: 1vw;
+        margin-right: -1vw;
+    }
+
+    :last-child {
+        transition: margin 1s;
+//         transition-timing-function: ease-in-out;
+    }
+
+    :last-child:hover {
+        margin-right: 1vw;
+        margin-left: -1vw;
+    }
+
+    li {
+        flex: 1;
+        height: 18vw;
+        transition: transform 0.3s;
+        padding: {
+            top: 1vw;
+            bottom: 1vw;
+        }
+        box-sizing: border-box;
+        font-size: 1vw;
+    }
+
+    li:hover {
+        -webkit-box-shadow: 2px 3px 8px $black;
+        -moz-box-shadow: 2px 3px 8px $black;
+        box-shadow: 2px 3px 8px $black;
+        transform: scale(1.1, 1.1);
+        z-index: 2;
+    }
+
+    #subject_reel_language {
+        background-color: $red;
+    }
+
+    #subject_reel_economics {
+        background-color: $orange;
+    }
+
+    #subject_reel_geography {
+        background-color: $yellow;
+    }
+
+    #subject_reel_science {
+        background-color: $green;
+    }
+
+    #subject_reel_mathematics {
+        background-color: $blue;
+    }
+
+    #subject_reel_technology {
+        background-color: $gray;
+    }
+
+    #subject_reel_creative_arts {
+        background-color: $purple;
+    }
+
+    #subject_reel_life_orientation {
+        background-color: $pink;
+    }
+}

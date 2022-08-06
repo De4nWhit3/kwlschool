@@ -1,0 +1,32 @@
+//fonts
+@font-face{
+    font-family: 'shipporiantique';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/src/styling/fonts/ShipporiAntiqueB1-Regular.ttf') format('truetype');
+}
+
+// colors
+// weights: normal, _l light, _d dark
+$red: #ff4d4d;
+// $red_l: #fb727e;
+
+$orange: #ff8533;
+$orange_l: #ffcf14;
+
+$yellow: #ffdb4d;
+
+$green: #66ff66;
+$green_l: #66ff6e;
+
+$blue: #66d9ff;
+$blue_l: #4ff1ff;
+
+$gray: #bfbfbf;
+$gray_d: #262626;
+
+$purple: #af82f7;
+
+$pink: #ffaec9;
+
+$black: #000;
