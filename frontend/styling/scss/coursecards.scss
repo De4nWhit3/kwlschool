@@ -1,0 +1,37 @@
+@import "globals";
+
+.course_cards {
+    padding: 0;
+    max-width: 80%;
+    list-style-type: none;
+    font-family: "shipporiantique";
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+
+    .course_card {
+        position: relative;
+        display: inline-block;
+        flex: 1;
+        margin-right: 3em;
+        height: 23em;
+        box-sizing: border-box;
+
+        .course_card_header {
+            .course_card_course_name {
+                margin: 0;
+            }
+        }
+
+        .course_card_background_image {
+            max-width: 80%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+            height: 100%;
+            border-radius: 1em;
+            border: 0.2em solid $purple;
+        }
+    }
+}

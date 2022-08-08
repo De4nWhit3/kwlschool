@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "coursecards.css",
+	"sources": [
+		"../scss/coursecards.scss",
+		"../scss/_globals.scss"
+	],
+	"sourcesContent": [
+		"@import \"globals\";\r\n\r\n.course_cards {\r\n    padding: 0;\r\n    max-width: 80%;\r\n    list-style-type: none;\r\n    font-family: \"shipporiantique\";\r\n    margin-right: auto;\r\n    margin-left: auto;\r\n    display: flex;\r\n\r\n    .course_card {\r\n        position: relative;\r\n        display: inline-block;\r\n        flex: 1;\r\n        margin-right: 3em;\r\n        height: 23em;\r\n        box-sizing: border-box;\r\n\r\n        .course_card_header {\r\n            .course_card_course_name {\r\n                margin: 0;\r\n            }\r\n        }\r\n\r\n        .course_card_background_image {\r\n            max-width: 80%;\r\n            position: absolute;\r\n            top: 0;\r\n            left: 0;\r\n            z-index: -1;\r\n            height: 100%;\r\n            border-radius: 1em;\r\n            border: 0.2em solid $purple;\r\n        }\r\n    }\r\n}",
+		"//fonts\r\n@font-face{\r\n    font-family: 'shipporiantique';\r\n    font-style: normal;\r\n    font-weight: 400;\r\n    src: url('../fonts/ShipporiAntiqueB1-Regular.ttf') format('truetype');\r\n}\r\n\r\n// colors\r\n// weights: normal, _l light, _d dark\r\n$red: #ff4d4d;\r\n// $red_l: #fb727e;\r\n\r\n$orange: #ff8533;\r\n$orange_l: #ffcf14;\r\n\r\n$yellow: #ffdb4d;\r\n\r\n$green: #66ff66;\r\n$green_l: #66ff6e;\r\n\r\n$blue: #66d9ff;\r\n$blue_l: #4ff1ff;\r\n$blue_d: #00bfff;\r\n\r\n$gray: #bfbfbf;\r\n$gray_d: #262626;\r\n\r\n$purple: #af82f7;\r\n\r\n$pink: #ffaec9;\r\n\r\n$black: #000;"
+	],
+	"names": [],
+	"mappings": "ACCA,UAAU;EACN,WAAW,EAAE,iBAAiB;EAC9B,UAAU,EAAE,MAAM;EAClB,WAAW,EAAE,GAAG;EAChB,GAAG,EAAE,6CAA6C,CAAC,kBAAkB;;;;ADHzE,AAAA,aAAa,CAAC;EACV,OAAO,EAAE,CAAC;EACV,SAAS,EAAE,GAAG;EACd,eAAe,EAAE,IAAI;EACrB,WAAW,EAAE,iBAAiB;EAC9B,YAAY,EAAE,IAAI;EAClB,WAAW,EAAE,IAAI;EACjB,OAAO,EAAE,IAAI;CA2BhB;;;AAlCD,AASI,aATS,CAST,YAAY,CAAC;EACT,QAAQ,EAAE,QAAQ;EAClB,OAAO,EAAE,YAAY;EACrB,IAAI,EAAE,CAAC;EACP,YAAY,EAAE,GAAG;EACjB,MAAM,EAAE,IAAI;EACZ,UAAU,EAAE,UAAU;CAkBzB;;;AAjCL,AAkBY,aAlBC,CAST,YAAY,CAQR,mBAAmB,CACf,wBAAwB,CAAC;EACrB,MAAM,EAAE,CAAC;CACZ;;;AApBb,AAuBQ,aAvBK,CAST,YAAY,CAcR,6BAA6B,CAAC;EAC1B,SAAS,EAAE,GAAG;EACd,QAAQ,EAAE,QAAQ;EAClB,GAAG,EAAE,CAAC;EACN,IAAI,EAAE,CAAC;EACP,OAAO,EAAE,EAAE;EACX,MAAM,EAAE,IAAI;EACZ,aAAa,EAAE,GAAG;EAClB,MAAM,EAAE,KAAK,CAAC,KAAK,CCLtB,OAAO;CDMP"
+}

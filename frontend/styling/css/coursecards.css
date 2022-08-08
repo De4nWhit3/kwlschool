@@ -1,0 +1,46 @@
+@font-face {
+  font-family: 'shipporiantique';
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/ShipporiAntiqueB1-Regular.ttf") format("truetype");
+}
+
+/* line 3, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+.course_cards {
+  padding: 0;
+  max-width: 80%;
+  list-style-type: none;
+  font-family: "shipporiantique";
+  margin-right: auto;
+  margin-left: auto;
+  display: flex;
+}
+
+/* line 12, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+.course_cards .course_card {
+  position: relative;
+  display: inline-block;
+  flex: 1;
+  margin-right: 3em;
+  height: 23em;
+  box-sizing: border-box;
+}
+
+/* line 21, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+.course_cards .course_card .course_card_header .course_card_course_name {
+  margin: 0;
+}
+
+/* line 26, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+.course_cards .course_card .course_card_background_image {
+  max-width: 80%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  height: 100%;
+  border-radius: 1em;
+  border: 0.2em solid #af82f7;
+}
+
+/*# sourceMappingURL=coursecards.css.map */
