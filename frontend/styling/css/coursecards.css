@@ -26,12 +26,43 @@
   box-sizing: border-box;
 }
 
-/* line 21, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
-.course_cards .course_card .course_card_header .course_card_course_name {
-  margin: 0;
+/* line 20, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+.course_cards .course_card .course_card_header {
+  margin-top: 1.5em;
+  float: right;
+  background-color: rgba(175, 130, 247, 0.6);
+  border: 0.2em solid rgba(175, 130, 247, 0.3);
+  border-radius: 0.5em;
+  width: 75%;
+  padding: 0.4em;
+  transition: background-color 1s;
 }
 
-/* line 26, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+/* line 31, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+.course_cards .course_card .course_card_header .course_card_course_name {
+  margin: 0;
+  float: left;
+  font-size: 1em;
+  font-weight: normal;
+}
+
+/* line 38, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+.course_cards .course_card .course_card_header .course_card_teacher_name {
+  float: right;
+  font-size: 0.9em;
+  text-decoration: none;
+}
+
+/* line 45, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+.course_cards .course_card .course_card_header .course_card_teacher_name:hover {
+  text-shadow: -1px -1px 0 #2DD785, 1px -1px 0 #2DD785, -1px 1px 0 #2DD785, 1px 1px 0 #2DD785;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -o-transition: all .5s;
+  transition: all .5s;
+}
+
+/* line 58, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
 .course_cards .course_card .course_card_background_image {
   max-width: 80%;
   position: absolute;
@@ -41,6 +72,12 @@
   height: 100%;
   border-radius: 1em;
   border: 0.2em solid #af82f7;
+}
+
+/* line 72, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+.course_card:hover .course_card_header {
+  background-color: rgba(175, 130, 247, 0.9);
+  border: 0.2em solid rgba(175, 130, 247, 0.9);
 }
 
 /*# sourceMappingURL=coursecards.css.map */
