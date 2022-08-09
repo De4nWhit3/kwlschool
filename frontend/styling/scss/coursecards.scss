@@ -1,4 +1,6 @@
 @import "globals";
+// TODO: Check for color overlay on course_card_background_image
+// TODO: Give components actual height to prevent 'jumping'
 
 .course_cards {
     padding: 0;
@@ -22,7 +24,7 @@
         button {
             width: 80%;
             // color taken from $purple
-            background-color: rgba(175, 130, 247, 0.8);
+            background-color: rgba(175, 130, 247, 0.6);
             border: 0.2em solid rgba(175, 130, 247, 0.5);
             transition: background-color 0.5s;
         }
@@ -116,6 +118,7 @@
             height: 100%;
             border-radius: 1em;
             border: 0.2em solid $purple;
+//             filter: brightness(60%);
         }
     }
 }

@@ -15,32 +15,34 @@
 /* line 7, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel {
   padding: 0;
-  max-width: 100%;
+  max-width: 98%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   list-style-type: none;
   text-align: center;
   font-family: "shipporiantique";
 }
 
-/* line 15, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 17, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel :first-child,
 .subject_reel :last-child {
   transition: margin 0.3s;
 }
 
-/* line 20, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 22, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel :first-child:hover {
   margin-left: 1em;
   margin-right: -1em;
 }
 
-/* line 26, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 28, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel :last-child:hover {
   margin-right: 1em;
   margin-left: -1em;
 }
 
-/* line 31, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 33, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel li {
   flex: 1;
   height: 15em;
@@ -52,7 +54,7 @@
   position: relative;
 }
 
-/* line 43, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 45, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel li button {
   display: block;
   position: absolute;
@@ -66,7 +68,7 @@
   width: 70%;
 }
 
-/* line 56, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 58, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel li #subject_reel_language_btn,
 .subject_reel li #subject_reel_economics_btn,
 .subject_reel li #subject_reel_geography_btn,
@@ -81,19 +83,19 @@
   box-sizing: border-box;
 }
 
-/* line 70, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 72, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel li #subject_reel_mathematics_btn {
   border: 0.15em solid #262626;
   background-color: rgba(0, 191, 255, 0.7);
   transition: background-color 0.5s;
 }
 
-/* line 77, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 79, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel li #subject_reel_mathematics_btn:hover {
   background-color: rgba(0, 191, 255, 0.9);
 }
 
-/* line 82, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 84, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel li:hover {
   -webkit-box-shadow: 2px 3px 8px #000;
   -moz-box-shadow: 2px 3px 8px #000;
@@ -102,27 +104,27 @@
   z-index: 2;
 }
 
-/* line 90, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 92, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel #subject_reel_language {
   background-color: #ff4d4d;
 }
 
-/* line 94, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 96, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel #subject_reel_economics {
   background-color: #ff8533;
 }
 
-/* line 98, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 100, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel #subject_reel_geography {
   background-color: #ffdb4d;
 }
 
-/* line 102, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 104, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel #subject_reel_science {
   background-color: #66ff66;
 }
 
-/* line 106, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 108, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel #subject_reel_mathematics {
   background-color: #66d9ff;
   background-image: url("../../images/blue_girl.png");
@@ -131,17 +133,17 @@
   background-size: cover;
 }
 
-/* line 113, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 115, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel #subject_reel_technology {
   background-color: #bfbfbf;
 }
 
-/* line 117, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 119, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel #subject_reel_creative_arts {
   background-color: #af82f7;
 }
 
-/* line 121, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 123, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel #subject_reel_life_orientation {
   background-color: #ffaec9;
 }
@@ -153,7 +155,7 @@
   src: url("../fonts/ShipporiAntiqueB1-Regular.ttf") format("truetype");
 }
 
-/* line 3, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+/* line 5, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
 .course_cards {
   padding: 0;
   max-width: 80%;
@@ -164,7 +166,7 @@
   display: flex;
 }
 
-/* line 12, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+/* line 14, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
 .course_cards .course_card {
   position: relative;
   display: inline-block;
@@ -174,17 +176,17 @@
   box-sizing: border-box;
 }
 
-/* line 20, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+/* line 22, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
 .course_cards .course_card .course_card_header,
 .course_cards .course_card .course_card_brief_info,
 .course_cards .course_card button {
   width: 80%;
-  background-color: rgba(175, 130, 247, 0.8);
+  background-color: rgba(175, 130, 247, 0.6);
   border: 0.2em solid rgba(175, 130, 247, 0.5);
   transition: background-color 0.5s;
 }
 
-/* line 30, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+/* line 32, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
 .course_cards .course_card .course_card_header,
 .course_cards .course_card .course_card_brief_info {
   float: right;
@@ -193,31 +195,31 @@
   padding: 0.4em;
 }
 
-/* line 38, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+/* line 40, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
 .course_cards .course_card .course_card_header {
   box-sizing: border-box;
 }
 
-/* line 42, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+/* line 44, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
 .course_cards .course_card .course_card_header .course_card_course_name,
 .course_cards .course_card .course_card_header .course_card_course_catchphrase {
   font-weight: normal;
   margin: 0;
 }
 
-/* line 48, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+/* line 50, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
 .course_cards .course_card .course_card_header .course_card_course_name {
   float: left;
   font-size: 1em;
 }
 
-/* line 53, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+/* line 55, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
 .course_cards .course_card .course_card_header .course_card_course_catchphrase {
   float: right;
   font-size: 0.9em;
 }
 
-/* line 59, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+/* line 61, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
 .course_cards .course_card .course_card_brief_info {
   box-sizing: border-box;
   clear: both;
@@ -225,25 +227,25 @@
   height: 50%;
 }
 
-/* line 65, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+/* line 67, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
 .course_cards .course_card .course_card_brief_info .course_card_teacher_info {
   list-style-type: none;
   padding: 0;
   width: 100%;
 }
 
-/* line 70, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+/* line 72, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
 .course_cards .course_card .course_card_brief_info .course_card_teacher_info li {
   display: inline-block;
 }
 
-/* line 74, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+/* line 76, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
 .course_cards .course_card .course_card_brief_info .course_card_teacher_info .course_card_teacher_image,
 .course_cards .course_card .course_card_brief_info .course_card_teacher_info .course_card_teacher_name {
   box-sizing: border-box;
 }
 
-/* line 79, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+/* line 81, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
 .course_cards .course_card .course_card_brief_info .course_card_teacher_info .course_card_teacher_image {
   border-radius: 1em;
   width: 25%;
@@ -252,7 +254,7 @@
   border: 0.2em solid #af82f7;
 }
 
-/* line 88, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+/* line 90, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
 .course_cards .course_card .course_card_brief_info .course_card_teacher_info .course_card_teacher_name {
   width: 70%;
   right: 0;
@@ -262,7 +264,7 @@
   color: #000;
 }
 
-/* line 99, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+/* line 101, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
 .course_cards .course_card button {
   font-size: 1em;
   position: absolute;
@@ -274,7 +276,7 @@
   bottom: 1em;
 }
 
-/* line 110, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+/* line 112, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
 .course_cards .course_card .course_card_background_image {
   max-width: 80%;
   position: absolute;
@@ -286,7 +288,7 @@
   border: 0.2em solid #af82f7;
 }
 
-/* line 124, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
+/* line 127, ../../KwlSchool/kwlschool/frontend/styling/scss/coursecards.scss */
 .course_card:hover .course_card_header,
 .course_card:hover .course_card_brief_info,
 .course_card:hover button {
@@ -298,7 +300,6 @@
 body {
   margin: 0;
   background-color: #262626;
-  overflow: hidden;
 }
 
 /* line 11, ../../KwlSchool/kwlschool/frontend/styling/scss/index.scss */

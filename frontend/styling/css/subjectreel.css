@@ -8,32 +8,34 @@
 /* line 7, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel {
   padding: 0;
-  max-width: 100%;
+  max-width: 98%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   list-style-type: none;
   text-align: center;
   font-family: "shipporiantique";
 }
 
-/* line 15, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 17, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel :first-child,
 .subject_reel :last-child {
   transition: margin 0.3s;
 }
 
-/* line 20, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 22, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel :first-child:hover {
   margin-left: 1em;
   margin-right: -1em;
 }
 
-/* line 26, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 28, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel :last-child:hover {
   margin-right: 1em;
   margin-left: -1em;
 }
 
-/* line 31, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 33, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel li {
   flex: 1;
   height: 15em;
@@ -45,7 +47,7 @@
   position: relative;
 }
 
-/* line 43, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 45, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel li button {
   display: block;
   position: absolute;
@@ -59,7 +61,7 @@
   width: 70%;
 }
 
-/* line 56, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 58, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel li #subject_reel_language_btn,
 .subject_reel li #subject_reel_economics_btn,
 .subject_reel li #subject_reel_geography_btn,
@@ -74,19 +76,19 @@
   box-sizing: border-box;
 }
 
-/* line 70, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 72, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel li #subject_reel_mathematics_btn {
   border: 0.15em solid #262626;
   background-color: rgba(0, 191, 255, 0.7);
   transition: background-color 0.5s;
 }
 
-/* line 77, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 79, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel li #subject_reel_mathematics_btn:hover {
   background-color: rgba(0, 191, 255, 0.9);
 }
 
-/* line 82, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 84, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel li:hover {
   -webkit-box-shadow: 2px 3px 8px #000;
   -moz-box-shadow: 2px 3px 8px #000;
@@ -95,27 +97,27 @@
   z-index: 2;
 }
 
-/* line 90, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 92, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel #subject_reel_language {
   background-color: #ff4d4d;
 }
 
-/* line 94, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 96, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel #subject_reel_economics {
   background-color: #ff8533;
 }
 
-/* line 98, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 100, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel #subject_reel_geography {
   background-color: #ffdb4d;
 }
 
-/* line 102, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 104, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel #subject_reel_science {
   background-color: #66ff66;
 }
 
-/* line 106, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 108, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel #subject_reel_mathematics {
   background-color: #66d9ff;
   background-image: url("../../images/blue_girl.png");
@@ -124,17 +126,17 @@
   background-size: cover;
 }
 
-/* line 113, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 115, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel #subject_reel_technology {
   background-color: #bfbfbf;
 }
 
-/* line 117, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 119, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel #subject_reel_creative_arts {
   background-color: #af82f7;
 }
 
-/* line 121, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
+/* line 123, ../../KwlSchool/kwlschool/frontend/styling/scss/subjectreel.scss */
 .subject_reel #subject_reel_life_orientation {
   background-color: #ffaec9;
 }
